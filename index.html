@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="x-apple-disable-message-reformatting">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Email-Template</title>
+    <meta name="author" content="Amel Bougrine" />
+    <style>
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #191919;
+}
+.container {
+    background-image: url(images/image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0px;
+    padding: 60px 0px;
+}
+.inner-container {
+    position: relative;
+    background-color: #ffffffe3;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    padding-bottom: 15px;
+}
+.section {
+    width: 100%;
+    padding: 0px 30px 30px 30px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.section1 {
+    height: 180px;
+    padding: 0;
+    margin: 0;
+}
+.section1 a {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding-top: 40px;
+    width: 120px;
+    height: 120px;
+}
+.section1 img {
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 0px 2px #000;
+}
+.section1 img:hover {
+    box-shadow: 0px 0px 4px #000;
+}
+.section2 h1 {
+    color: #191919;
+    font-size: 48px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-top: 0;
+}
+.section2 h1 span {
+    font-weight: 600;
+    font-size: 47px;
+}
+.section2 p {
+    font-weight: 400;
+    font-size: 18px;
+}
+.section3 .lign {
+    width: 95%;
+    height: 2px;
+    background-color: #2E6433;
+    margin: 0 auto;
+}
+.section3 p {
+    font-weight: 500;
+    font-size: 18px;
+}
+.steps {
+    Margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.steps a:hover {
+    background-color: #02814e1c;
+}
+.ligne-v {
+    width: 2px;
+    height: 120px;
+    background-color: #2E6433;
+}
+.step {
+    padding-top: 0px;
+    width: 100px;
+    height: 120px;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-align: center;
+}
+.step img {
+    margin-top: 10px;
+    width: 60px;
+    height: 55px;
+}
+.step p {
+    margin-top: 7px;
+    font-weight: 500;
+    font-size: 17px;
+}
+.section4 h3 {
+    font-weight: 500;
+    font-size: 26px;
+}
+.section4 p {
+    font-weight: 500;
+    font-size: 18px;
+}
+.section5 .ligne-small {
+    width: 70%;
+    height: 1px;
+    background-color: #b1b1b1;
+    margin: 0 auto;
+}
+.section5 .small {
+    font-weight: 500;
+    font-size: 11px;
+    color: #616161;
+    margin-top: 30px;
+}
+@media only screen and (max-width:480px){
+    .container {
+        width: 100%;
+    }
+    .section2 h1 {
+        font-size: 33px;
+    }
+    .section2 h1 span {
+        font-size: 32px;
+    }
+    .section2 p {
+        font-size: 14px;
+    }
+    .section3 p {
+        font-size: 14px;
+    }
+    .ligne-v {
+        display: none;
+    }
+    .step {
+        width: 80%;
+        border-bottom: 2px solid #2E6433;
+    }
+    .step2 {
+        height: 135px;
+    }
+    .step p {
+        font-size: 14px;
+    }
+    .section4 h3 {
+        font-size: 24px;
+    }
+    .section4 p {
+        font-size: 14px;
+    }
+    .section5 .small {
+        font-size: 12px;
+    }
+}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="inner-container">
+        <div class="section section1">
+          <a href="">
+            <img src="images/logo.png" alt="Logo">
+          </a>
+        </div>
+        <div class="section section2">
+          <h1>THIS WEEK'S <br>
+            <span>CONTEXT</span> </h>
+          <p>WE'RE KICKING OFF JUNE WITH CHANCE TO WIN A SHOPPING SPREE!</p>
+        </div>
+        <div class="section section3">
+          <div class="lign"></div>
+          <p>FOLLOW THESE SIMPLE STEPS:</p>
+          <div class="lign"></div>
+          <div class="steps">
+            <a href="">
+              <div class="step">
+                <img src="images/icon1.png" alt="">
+                <p>Go to our Intagram</p>
+              </div>
+            </a>
+            <div class="ligne-v"></div>
+            <a href="">
+              <div class="step step2">
+                <img src="images/icon2.png" alt="">
+                <p>Like our recent post</p>
+              </div>
+            </a>
+            <div class="ligne-v"></div>
+            <a href="">
+              <div class="step">
+                <img src="images/icon3.png" alt="">
+                <p>Make a comment</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="section section4">
+          <h3>THAT'S IT!</h3>
+          <p>The contest winner will be notified by<br> September 28, 2021.</p>
+          <p>CONTEST OPEN WORLWIDE</p>
+        </div>
+        <div class="section section5">
+          <div class="ligne-small"></div>
+          <p class="small">Don't forget to add your address <a href="">here</a> 
+            And <a href="">unsubscribe</a> link here.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
